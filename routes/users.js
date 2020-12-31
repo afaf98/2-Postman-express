@@ -1,5 +1,5 @@
 const express = require("express");
-import { v4 as uuidv4 } from "uuid";
+const { v4 } = require("uuid");
 
 const router = express.Router();
 
@@ -23,7 +23,8 @@ router.get("/:id", (req, res) => {
 });
 router.post("/", (req, res) => {
   const user = req.body; //get post request content
-  users.push({ id: uuidv4(), ...user }); //add an id
+  users.push({ id: v4(), ...user }); //add an id
   res.send(users); //display updated users
 });
-export default router;
+
+module.exports = router;
