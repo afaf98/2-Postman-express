@@ -1,0 +1,27 @@
+{
+  "name": "postmanExpress2",
+  "version": "1.0.0",
+  "description": "~ `https://dev.to/dmarcr1997/node-express-and-postman-4pc4`~",
+  "main": "App.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afaf98/2-Postman-express.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/afaf98/2-Postman-express/issues"
+  },
+  "homepage": "https://github.com/afaf98/2-Postman-express#readme"
+}
